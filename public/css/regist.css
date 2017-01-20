@@ -1,0 +1,116 @@
+body{
+	
+	background: url(../imgs/background.jpg);
+
+	background-position: 450px 100px;
+	background-size: 20%;
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	left: 40%;
+	top:30%;
+	font-family: cursive;
+	font-size: 20px;
+}
+.frame{
+	width: 348px;
+	height: 39px;
+	position: absolute;
+	left: -24px;
+	top: 100px;
+	color: #f5efef;
+	overflow: hidden;
+	display: block;
+}
+form{
+	color: white;
+	width: 433px;
+	height:400px;
+}
+#name_mess,.usr_name{
+	top :0;
+}
+#check_mess,.pass_check{
+	top: 77px;
+}
+#id_mess,.id{top: 115px;}
+#pass_mess,.password{
+	top: 40px;
+}
+#phone_mess,.phone{top: 155px;}
+#mail_mess,.email{top: 194px;}
+.button{
+	position: absolute;
+	top: 237px;
+	width: 92px;
+	font-size:10px;
+	height:30px;
+	color: white;
+}
+#container{
+	background: white;
+	width: 385px;
+	opacity: 0.5;
+	height: 295px;
+	position: fixed;
+	left: 36%;
+	top: 30%;
+}
+#r{
+	left: -23px;
+	background: #303030;
+}
+#s{
+	left: 155px;
+	background: #303030;
+}
+.message{
+	position: absolute;
+	/* background: #171515; */
+	left: 400px;
+	top: 128px;
+	width: 300px;
+	height: 22px;
+	font-family: cursive;
+	font-size: 16pt;
+	/* font-style: italic; */
+	font-weight: bold;
+	color: #FFFFFF;
+	opacity: 0;
+	display:  none;
+}
+input{
+	border-radius: 10px;
+	outline: none;
+	width: 156px;
+	height: 28px;
+	position:absolute;
+	left: 140px;
+	box-shadow: 0px 0px 19px 0px #FFFFFF;
+}
+.message_show{
+	position: absolute;
+	/* background: #171515; */
+	left: 400px;
+	top: 128px;
+	width: 300px;
+	height: 22px;
+	font-family: cursive;
+	font-size: 16pt;
+	/* font-style: italic; */
+	font-weight: bold;
+	color: #FFFFFF;
+	transition: all 0.5s;
+	opacity: 1;
+	/* top: 30px; */
+}
+.original{
+	 /* box-shadow: 0 0 0 100px white inset; */
+	 transition: all 0.6s;
+	 color:black;
+}
+.green{
+	opacity: 1;
+	box-shadow: 0 0 0 100px #96d8bd inset;
+	transition:all 0.6s;
+}

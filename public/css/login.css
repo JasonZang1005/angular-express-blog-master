@@ -1,0 +1,66 @@
+body{
+	color: white;
+	background: url(../imgs/background.jpg);
+	background-position: 450px 100px;
+	background-size: 35%;
+	background-color: #13120e;
+	width: 412px;
+	height: 400px;
+	position: fixed;
+	left: 40%;
+	top:30%;
+	font-family: cursive;
+	font-size: 20px;
+}
+.frame{
+	width: 319px;
+	height: 62px;
+	position: absolute;
+	left: -34px;
+	top: 100px;
+	color: #fbf5f5;
+	overflow: hidden;
+	display: block;
+}
+form{
+	width:400px;
+	height:400px;
+}
+#name_mess,.usr_name{
+	top: 25px;
+}
+#pass_mess,.password{
+	top: 79px;
+}
+.button{
+	position: absolute;
+	top: 138px;
+	width: 92px;
+	font-size:10px;
+	height:30px;
+}
+#container{
+	background: white;
+	width: 385px;
+	opacity: 0.5;
+	height: 216px;
+	position: fixed;
+	left: 36%;
+	top: 30%;
+}
+
+#l{
+	color: white;
+	left: 120px;
+	background: #474747;
+}
+
+input{
+	border-radius: 10px;
+	outline: none;
+	width: 192px;
+	height:30px;
+	position:absolute;
+	left: 103px;
+	box-shadow: 6px 7px 12px -7px #FFFFFF;
+}

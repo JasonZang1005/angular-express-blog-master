@@ -1,0 +1,9 @@
+h2 Write a new post
+label(for='title') Title: 
+form(name="myform")
+    input(ng-model='form.title' required  name='title')
+    span(ng-show="myform.title.$error.required") 请输入标题
+    p Body:
+    textarea(ng-model='form.text', cols='50', rows='15' class="textArea")
+    p
+      button(ng-click='submitPost()' class="button" ng-disabled="myform.title.$error.required") Submit Post

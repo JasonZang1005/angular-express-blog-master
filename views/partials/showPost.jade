@@ -1,0 +1,7 @@
+h2 {{post.title}}
+div {{post.text}}
+p(class="choice")
+  | Are you sure you want to show this post? 
+  button(ng-click='showPost()' class="button") Yes
+  |  - 
+  button(ng-click='home()' class="button") No thanks

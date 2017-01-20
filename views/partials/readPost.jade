@@ -1,0 +1,14 @@
+section
+h2 title:   {{post.title}}
+div text:   {{post.text}}
+input(ng-model="search" class="search") 
+div(ng-repeat="comment in post.comments|filter:search" )
+    div(class="commentZone")
+        div(class="commentText") comment:{{comment.text}}
+        div( class="commentAuthor") author:{{comment.author}}
+        button(ng-click="hideComment($index)" class="SHbutton") Hide
+        button(ng-click="showComment($index)" class="SHbutton") Show   
+   
+    
+
+a(href='/commentPost/{{post.id}}') make a comment

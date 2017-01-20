@@ -1,0 +1,125 @@
+/* app css stylesheet */
+
+body{
+  background: url(../imgs/background.jpg);
+
+	background-position: 450px 100px;
+	background-size: 20%;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+button{
+	 border-radius:10px;
+	 color:white;
+	 background-color:#333333;
+	 box-shadow: 0px 0px 9px 0px #FFFFFF
+}
+div{
+	color:white
+}
+a{
+	color:white;
+	/* position: absolute; */
+}	
+.commentZone{
+	width: 260px;
+	height: 120px;
+	margin: 13px;
+	background: rgba(255,255,255,0.1);
+	/* left: 100px; */
+}
+
+
+input{
+	height: 18px;
+	border: 29px;
+	border-radius:10px;
+	outline: none;
+	margin: 23px;
+	position: relative;
+	/* left: 10px; */
+	/* top: 10px; */
+}
+
+.commentAuthor{width: 200px;height: 32px;position: relative;top: 56px;}
+.commentText{
+	width: 200px;
+	height: 21px;
+	position: relative;
+	left: 0px;
+}
+body{
+	position:absolute;
+	left: 40%;
+	font-family: Arial;
+	/* font-variant: small-caps; */
+}
+
+.SHbutton{
+	height: 20px;
+	width: 69px;
+	position: relative;
+	top: 43px;
+}
+
+
+.postArea{
+	width: 400px;
+	background: rgba(255,255,255,0.1);
+	height: 200px;
+}
+.catalogArea{
+	width: 282px;
+	background: rgba(255,255,255,0.1);
+}
+.postCheckBox{
+	position:relative;
+	left: -21px;
+	top: -43px;
+}
+.textArea{
+	position:relative;
+	top: 0px;
+}
+.postTextArea{
+	position:relative;
+	top: -14px;
+}
+.authorArea{
+	bottom: -82px;
+	position:relative;
+}
+.timeArea{
+	position:relative;
+	bottom: -86px;
+}
+.postA{
+	position:relative;
+	bottom: -87px;
+}
