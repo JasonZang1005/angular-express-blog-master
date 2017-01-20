@@ -1,0 +1,18 @@
+{
+    "name": "blog"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "body-parser": "^1.15.2",
+    "connect-flash": "*",
+    "connect-mongo": "*",
+    "cookie-parser": "^1.4.3",
+    "cookieparser": "^0.1.0",
+    "express": "3.2.4",
+    "express-session": "^1.14.2",
+    "logger": "0.0.1",
+    "mongodb": "*",
+    "morgan": "^1.7.0",
+    "jade": ">= 0.0.1"
+  }
+}
